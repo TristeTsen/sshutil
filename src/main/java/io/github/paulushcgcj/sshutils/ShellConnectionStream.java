@@ -34,7 +34,7 @@ public class ShellConnectionStream {
 	/**
 	 * Connect to host with a timeout of 30 seconds and skipping host key check
 	 * @return true in case of success, false if it fails
-	 * @throws JSchException
+	 * @throws JSchException 1
 	 */
 	public boolean connect() throws JSchException {
 
